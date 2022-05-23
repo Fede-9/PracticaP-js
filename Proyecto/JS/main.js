@@ -45,6 +45,8 @@ testBall.color
 testBall.draw()
 
 
+// Ahora podemos dibujar una pelota en una posición dada, pero para empezar a moverla, se necesita una función de actualización de algún tipo. Podemos añadir el código a continuación, al final del archivo de JavaScript, para añidir un método de actualización update() en el prototipo de la clase Ball()
+
 Ball.prototype.update = function() {
   if ((this.x + this.size) >= width) {
     this.velX = -(this.velX);
@@ -84,6 +86,7 @@ Ball.prototype.update = function() {
 
 
 var balls = [];
+
 
 function loop() {
   ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
