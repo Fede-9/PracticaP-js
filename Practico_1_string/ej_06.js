@@ -6,3 +6,4 @@ function getInternal(cadena){
 }
 
 console.log(getInternal('Federico'));
+

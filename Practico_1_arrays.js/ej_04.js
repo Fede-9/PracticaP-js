@@ -18,3 +18,4 @@ const arrayMultiplos7 = array.filter(function(elemento){
     return elemento % 7 === 0 && elemento > 10;
 });
 console.log(arrayMultiplos7);
+
