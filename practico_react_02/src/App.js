@@ -19,6 +19,10 @@ const lista = [{
   edad:22
 }]
 
+
+const edad = 11
+
+
 function App() {
   return (
     <div className="App">
@@ -30,7 +34,7 @@ function App() {
 
       <div>
         <CalculaEdad
-        edad={78} />
+        edad={edad} />
       </div>
       
     </div>

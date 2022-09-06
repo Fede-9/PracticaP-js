@@ -7,7 +7,7 @@ import Toast from './componentes/toast';
 // logo
 import logo from './logo.svg';
 
-const nombre = 'Federico'
+const nombre = 'Federico Cometto'
 
 
 function App() {
