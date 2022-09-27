@@ -4,8 +4,9 @@ import './App.css';
 // import JsxAccion from './componentes/ejemplo';
 // import Contador from './componentes/contador'
 // import Listas from './componentes/listas';
-import Compo1 from './componentes/componente_1'
-import Compo2 from './componentes/componente_2'
+// import Compo1 from './componentes/componente_1'
+// import Compo2 from './componentes/componente_2'
+import FriendStatus from './componentes/amigo_en_linea'
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
         <Formulario />
       </div> */}
     
-      <Compo1 />
-      <Compo2 />
+      {/* <Compo1 /> */}
+      {/* <Compo2 /> */}
 
+      <FriendStatus />
       
     </div>
   );
