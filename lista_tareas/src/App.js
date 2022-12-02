@@ -25,7 +25,7 @@ function App() {
 
     setTodos([...todos, newItem])
   }
-
+   
   return (
     <div className="container">
       <TodoForm addTodo = {addTodo}/>
